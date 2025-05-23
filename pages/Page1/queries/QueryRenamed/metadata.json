@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "683009c709fcd978b8cc8408_52522041-3a19-481d-ae5a-f3eeb2787d3a",
-  "id": "Page1_Query1",
+  "gitSyncId": "683009c709fcd978b8cc8408_2945eee4-ea2c-460b-bf2d-d24bf6e3f358",
+  "id": "Page1_QueryRenamed",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM <<your_table_name>> LIMIT 10;\n\n-- Please enter a valid table name and hit RUN\n",
+      "body": "SELECT * FROM public.\"users\" LIMIT 10;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,8 +22,7 @@
       "name": "Users",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [],
-    "name": "Query1",
+    "name": "QueryRenamed",
     "pageId": "Page1",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
